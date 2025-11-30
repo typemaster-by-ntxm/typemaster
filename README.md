@@ -1,4 +1,4 @@
-# TypeMaster - New Typing Practice Software Website and Software
+# TypeMaster - New Typing Practice Website and Software
 
 This repository contains a simple HTML page used to direct users to the official product page for **TypeMaster**, a modern typing software developed by NTXM.
 
