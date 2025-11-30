@@ -33,13 +33,6 @@ It may be used in situations where hosting platforms or old URLs require a landi
 
 ---
 
-## 🛠 Project Structure
-
-├── index.html      # Static HTML file pointing users to the official TypeMaster page
-└── README.md       # Documentation for this project
-
----
-
 ## 📬 Contact
 
 For feature requests, feedback, or support, please reach out via the official NTXM website.  
