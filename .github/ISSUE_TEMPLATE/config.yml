@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Product page and downloads
+    url: https://ntxm.org/products/typemaster/
+    about: Features and downloads for TypeMaster.
+  - name: Install help (SmartScreen)
+    url: https://github.com/typemaster-by-ntxm/typemaster#install
+    about: Steps for the Windows SmartScreen warning.
+  - name: Security report (private)
+    url: https://github.com/typemaster-by-ntxm/typemaster/blob/main/SECURITY.md
+    about: Please email contact@ntxm.org instead of opening a public issue.
+  - name: Web version
+    url: https://typemaster.ntxm.org/
+    about: Use TypeMaster in your browser.

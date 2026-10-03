@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest a feature or an improvement
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        TypeMaster for Windows is built to work offline, so ideas that need an account or a server will not fit. Everything else is welcome.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Story Mode
+        - Typing levels
+        - Coding practice
+        - Interface or themes
+        - Installer or platforms
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you do today instead?

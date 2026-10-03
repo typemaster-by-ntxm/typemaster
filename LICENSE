@@ -1,4 +1,28 @@
-This software is proprietary and closed source. All rights are reserved.
-Unauthorized use, reproduction, distribution, or modification of this software, in whole or in part, is strictly prohibited.
-This software is intended for use exclusively by individuals and entities directly related to ntxm.org.
-Any use by parties not affiliated with ntxm.org is expressly forbidden.
+Copyright (c) 2026 ntxm. All Rights Reserved.
+
+PROPRIETARY LICENSE
+
+This software and associated documentation files (the "Software") are the proprietary
+property of ntxm. All rights are reserved.
+
+PERMITTED USE:
+
+- You may use the compiled/built application for personal or commercial purposes.
+- You may download and use the pre-built binaries.
+
+RESTRICTIONS:
+
+- You may NOT use, copy, modify, merge, publish, distribute, sublicense, or sell
+  the source code or any portion thereof.
+- You may NOT create derivative works based on the source code.
+- You may NOT use the source code for production distribution.
+- You may NOT reverse engineer the compiled application.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For licensing inquiries, contact: ntxm
