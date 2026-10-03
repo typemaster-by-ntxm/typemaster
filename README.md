@@ -7,7 +7,7 @@
 ### Learn to type by typing real books. Fully offline.
 
 **1,456 classic stories ship inside the app.** No daily cap, no trial, no paywall, no login.<br/>
-Desktop app for Windows. macOS is not available yet.
+Desktop app for Windows. There is no macOS build of 0.1.2 yet.
 
 <br/>
 
@@ -49,7 +49,7 @@ Desktop app for Windows. macOS is not available yet.
 | Platform | File | Size | Requires |
 |:---------|:-----|-----:|:---------|
 | **Windows** | [`TypeMaster_0.1.2_x64_en-US.msi`](https://github.com/typemaster-by-ntxm/typemaster/releases/download/v0.1.2/TypeMaster_0.1.2_x64_en-US.msi) | about 500 MB (525,088,150 bytes) | 64-bit Windows. About 1.4 GB free disk space |
-| **macOS** | Not available yet | | No Mac build has been released |
+| **macOS** | Not available for 0.1.2 | | There is no Mac build of this version. (An older, much smaller 0.1.0 disk image is on the releases page; it is not this app.) |
 | **All** | [Release page for v0.1.2](https://github.com/typemaster-by-ntxm/typemaster/releases/tag/v0.1.2) | | Every file of this version |
 
 The download is large because all 1,456 stories are inside the installer. That is also why it works without internet.
@@ -179,7 +179,7 @@ Examples you can find in the library: *A Farewell to Arms*, *Arms and the Man*, 
 
 ### macOS
 
-There is **no macOS build yet**. Nothing is promised for a date. Watch the [releases page](https://github.com/typemaster-by-ntxm/typemaster/releases) if you want to know when that changes. In the meantime the [web version](https://typemaster.ntxm.org/) runs in any browser.
+There is **no macOS build of 0.1.2 yet**. Nothing is promised for a date. Watch the [releases page](https://github.com/typemaster-by-ntxm/typemaster/releases) if you want to know when that changes. In the meantime the [web version](https://typemaster.ntxm.org/) runs in any browser.
 
 ### System requirements
 
@@ -267,7 +267,7 @@ Because the whole library of 1,456 stories, with covers, is bundled so that the 
 <details>
 <summary><b>Is there a Mac version?</b></summary>
 <br/>
-Not yet. Only the Windows installer has been released. You can use the <a href="https://typemaster.ntxm.org/">web version</a> on a Mac.
+Not for this version. Version 0.1.2 has only the Windows installer. You can use the <a href="https://typemaster.ntxm.org/">web version</a> on a Mac.
 </details>
 
 <details>
@@ -300,7 +300,7 @@ Please link to this page or to the release instead of re-hosting the file. For a
 
 Being straight about what 0.1.2 does not do:
 
-- **Windows only.** No macOS or Linux build has been released.
+- **Windows only.** Version 0.1.2 has no macOS or Linux build.
 - **Unsigned installer.** SmartScreen will warn you on first run.
 - **Large.** About 500 MB to download and about 1.4 GB installed.
 - **English stories only.**

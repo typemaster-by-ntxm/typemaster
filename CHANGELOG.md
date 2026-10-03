@@ -20,7 +20,7 @@ Downloads: [Windows installer (MSI)](https://github.com/typemaster-by-ntxm/typem
 
 ### Notes
 - The Windows installer and executable are not code-signed yet, so SmartScreen may show a warning.
-- There is no macOS build.
+- There is no macOS build of this version.
 - SHA-256 of the installer: `6ceb838d32434452571fcb0af503d62270cb68b8b30e38cdbba43036111bbe67`.
 
 ## Earlier versions
