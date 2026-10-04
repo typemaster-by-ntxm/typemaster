@@ -7,12 +7,13 @@
 ### Learn to type by typing real books. Fully offline.
 
 **1,456 classic stories ship inside the app.** No daily cap, no trial, no paywall, no login.<br/>
-Desktop app for Windows. There is no macOS build of 0.1.2 yet.
+Desktop app for Windows (64-bit) and macOS (Apple Silicon).
 
 <br/>
 
 [![Version 0.1.2](https://img.shields.io/badge/version-0.1.2-7c5cff?style=for-the-badge)](https://github.com/typemaster-by-ntxm/typemaster/releases/tag/v0.1.2)
 [![Windows 64-bit](https://img.shields.io/badge/Windows-64--bit-0f1218?style=for-the-badge&logo=windows&logoColor=7c5cff)](#download)
+[![macOS Apple Silicon](https://img.shields.io/badge/macOS-Apple%20Silicon-0f1218?style=for-the-badge&logo=apple&logoColor=7c5cff)](#download)
 [![Works offline](https://img.shields.io/badge/works-offline-14b8a6?style=for-the-badge)](#privacy-and-offline)
 [![1,456 stories](https://img.shields.io/badge/stories-1%2C456-d4af37?style=for-the-badge)](#the-story-library)
 [![No login](https://img.shields.io/badge/login-none-6366f1?style=for-the-badge)](#why-typemaster)
@@ -42,14 +43,14 @@ Desktop app for Windows. There is no macOS build of 0.1.2 yet.
 
 <div align="center">
 
-[![Download for Windows](https://img.shields.io/badge/%E2%AC%87_Download-Windows%20installer%20(MSI)-7c5cff?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/typemaster-by-ntxm/typemaster/releases/download/v0.1.2/TypeMaster_0.1.2_x64_en-US.msi)
+[![Download for Windows](https://img.shields.io/badge/%E2%AC%87_Download-Windows%20installer%20(MSI)-7c5cff?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/typemaster-by-ntxm/typemaster/releases/download/v0.1.2/TypeMaster_0.1.2_x64_en-US.msi) &nbsp; [![Download for macOS](https://img.shields.io/badge/%E2%AC%87_Download-macOS%20Apple%20Silicon%20(DMG)-7c5cff?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/typemaster-by-ntxm/typemaster/releases/download/v0.1.2/TypeMaster_0.1.2_aarch64.dmg)
 
 </div>
 
 | Platform | File | Size | Requires |
 |:---------|:-----|-----:|:---------|
 | **Windows** | [`TypeMaster_0.1.2_x64_en-US.msi`](https://github.com/typemaster-by-ntxm/typemaster/releases/download/v0.1.2/TypeMaster_0.1.2_x64_en-US.msi) | about 500 MB (525,088,150 bytes) | 64-bit Windows. About 1.4 GB free disk space |
-| **macOS** | Not available for 0.1.2 | | There is no Mac build of this version. (An older, much smaller 0.1.0 disk image is on the releases page; it is not this app.) |
+| **macOS** | [`TypeMaster_0.1.2_aarch64.dmg`](https://github.com/typemaster-by-ntxm/typemaster/releases/download/v0.1.2/TypeMaster_0.1.2_aarch64.dmg) | about 500 MB (527,406,169 bytes) | Mac with Apple Silicon (M1 or newer). **Intel Macs are not supported** |
 | **All** | [Release page for v0.1.2](https://github.com/typemaster-by-ntxm/typemaster/releases/tag/v0.1.2) | | Every file of this version |
 
 The download is large because all 1,456 stories are inside the installer. That is also why it works without internet.
@@ -58,15 +59,17 @@ The download is large because all 1,456 stories are inside the installer. That i
 
 ```text
 6ceb838d32434452571fcb0af503d62270cb68b8b30e38cdbba43036111bbe67  TypeMaster_0.1.2_x64_en-US.msi
+7c1632920e950d37912a5d947a2be6c755e54c889cff91ed11e5f2fc3c2303d5  TypeMaster_0.1.2_aarch64.dmg
 ```
 
 ```text
 Windows (Command Prompt):  certutil -hashfile TypeMaster_0.1.2_x64_en-US.msi SHA256
 Windows (PowerShell):      Get-FileHash .\TypeMaster_0.1.2_x64_en-US.msi -Algorithm SHA256
+macOS (Terminal):          shasum -a 256 TypeMaster_0.1.2_aarch64.dmg
 ```
 
 > [!NOTE]
-> The installer is **not code-signed** yet. Windows SmartScreen will probably show a warning the first time. That is expected, and the steps to continue are in [Install](#install).
+> The Windows installer is **not code-signed** yet. Windows SmartScreen will probably show a warning the first time. On a Mac, macOS may also block the first launch. That is expected, and the steps to continue are in [Install](#install).
 
 TypeMaster is **free to download and use**. It is proprietary software, not open source: see [Licence](#licence).
 
@@ -179,16 +182,23 @@ Examples you can find in the library: *A Farewell to Arms*, *Arms and the Man*, 
 
 ### macOS
 
-There is **no macOS build of 0.1.2 yet**. Nothing is promised for a date. Watch the [releases page](https://github.com/typemaster-by-ntxm/typemaster/releases) if you want to know when that changes. In the meantime the [web version](https://typemaster.ntxm.org/) runs in any browser.
+The Mac build is for **Apple Silicon** Macs (M1 or newer). Intel Macs are not supported. On an Intel Mac you can use the [web version](https://typemaster.ntxm.org/) in any browser.
+
+1. [Download the disk image](https://github.com/typemaster-by-ntxm/typemaster/releases/download/v0.1.2/TypeMaster_0.1.2_aarch64.dmg) and (optionally) check its [SHA-256](#download).
+2. Double-click the `.dmg` file, then drag **TypeMaster** into your **Applications** folder.
+3. Open **Applications**, then right-click (or Control-click) **TypeMaster** and choose **Open**. Click **Open** again in the dialog. You only need to do this the first time.
+4. If macOS still says the app cannot be opened, go to **System Settings > Privacy & Security**, scroll down to the message about TypeMaster and click **Open Anyway**.
+
+The right-click step is needed because the app is not from the Mac App Store and may not be notarized by Apple yet.
 
 ### System requirements
 
-| | Windows |
-|:--|:--------|
-| **System** | 64-bit Windows. Tested on Windows 11. Other Windows versions are not tested |
-| **Disk space** | About 1.4 GB after installation (the stories are most of it) |
-| **Web view** | The Microsoft Edge WebView2 Runtime, which is built into Windows 11. If it is missing, the installer may need to fetch it once |
-| **Network** | Not needed to use the app |
+| | Windows | macOS |
+|:--|:--------|:------|
+| **System** | 64-bit Windows. Tested on Windows 11. Other Windows versions are not tested | Mac with Apple Silicon (M1 or newer). Intel Macs are not supported |
+| **Disk space** | About 1.4 GB after installation (the stories are most of it) | About 500 MB download. Installed size not measured on Mac yet |
+| **Web view** | The Microsoft Edge WebView2 Runtime, which is built into Windows 11. If it is missing, the installer may need to fetch it once | Uses the web view built into macOS |
+| **Network** | Not needed to use the app | Not needed to use the app |
 
 ### Uninstall
 
@@ -217,7 +227,7 @@ Also: links such as the ones under **Social** open in your normal web browser wh
 
 What the app does **not** do: no analytics or tracking inside the app, no ads, no account, no update checker (new versions are not announced inside the app, so watch the [releases page](https://github.com/typemaster-by-ntxm/typemaster/releases)).
 
-If you want a hard guarantee, block TypeMaster in Windows Firewall. Both items above are optional extras and the app does not depend on them. This description comes from reading the source code of version 0.1.2, not from a sandbox test.
+If you want a hard guarantee, block TypeMaster in your firewall. Both items above are optional extras and the app does not depend on them. This description comes from reading the source code of version 0.1.2, not from a sandbox test.
 
 Details: [PRIVACY.md](PRIVACY.md) | [TERMS.md](TERMS.md) | [LICENSE](LICENSE)
 
@@ -267,7 +277,7 @@ Because the whole library of 1,456 stories, with covers, is bundled so that the 
 <details>
 <summary><b>Is there a Mac version?</b></summary>
 <br/>
-Not for this version. Version 0.1.2 has only the Windows installer. You can use the <a href="https://typemaster.ntxm.org/">web version</a> on a Mac.
+Yes, for Macs with Apple Silicon (M1 or newer). Version 0.1.2 has a macOS disk image (<code>TypeMaster_0.1.2_aarch64.dmg</code>). Intel Macs are not supported, but the <a href="https://typemaster.ntxm.org/">web version</a> works in any browser. See <a href="#macos">Install</a> for the steps, including the right-click <b>Open</b> on first launch.
 </details>
 
 <details>
@@ -300,13 +310,13 @@ Please link to this page or to the release instead of re-hosting the file. For a
 
 Being straight about what 0.1.2 does not do:
 
-- **Windows only.** Version 0.1.2 has no macOS or Linux build.
-- **Unsigned installer.** SmartScreen will warn you on first run.
+- **Windows 64-bit and Apple Silicon Mac only.** Version 0.1.2 has no Intel Mac or Linux build.
+- **Unsigned installer.** SmartScreen will warn you on first run, and macOS may need the right-click **Open** step on first launch.
 - **Large.** About 500 MB to download and about 1.4 GB installed.
 - **English stories only.**
 - **Network extras.** One anonymous launch counter request and Google Fonts when you are online (see [Privacy and offline](#privacy-and-offline)).
 - **No automatic updates.**
-- **Early release.** This is a 0.1.x version tested on Windows 11. Please report problems.
+- **Early release.** This is a 0.1.x version, mainly tested on Windows 11. Please report problems.
 
 ---
 
